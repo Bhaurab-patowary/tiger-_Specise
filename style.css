@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #1f263f;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.main {
+    background: linear-gradient(45deg, rgba(31, 38, 66, 0.8), rgba(0, 0, 0, 0.8)), url('background-2_photo.jpg') center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(31, 38, 66, 0.9);
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 27px;
+    font-weight: 900px;
+}
+
+.menu div {
+    padding: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu div:hover {
+    color: #f39c12;
+}
+
+.icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /*Hide on large screens */
+}
+
+.para {
+    margin-top: 150px; 
+    width: 70%;
+    margin-left: 15%;
+    font-size: 20px;
+    font-style: italic;
+    color: #f1f1f1;
+   
+}
+
+.pera {
+    background-color: transparent;
+    color: #f1f1f1;
+    font-size: 30px;
+}
+
+.highlight {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.tiger  {
+    width: 200px;
+    height: 200px;
+    background-image: url(bengal-tiger-1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.teger {
+    width: 200px;
+    height: 200px;
+    background-image: url(indochinese-tiger.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tigir {
+    width: 200px;
+    height: 200px;
+    background-image: url(south\ chine.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tegir {
+    width: 200px;
+    height: 200px;
+    background-image: url(siberian-tiger.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.tg {
+    width: 200px;
+    height: 200px;
+    background-image: url(sumatran-tiger-1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.tigar {
+    width: 200px;
+    height: 200px;
+    background-image: url(malayan-tiger.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+.tiger:hover, .teger:hover, .tigir:hover, .tegir:hover, .tg:hover, .tigar:hover {
+    transform: scale(1.1);
+}
+
+.dt, .si, .wi, .ra, .po {
+    color: #f39c12;
+}
+
+.sib {
+    color: #e74c3c;
+}
+
+.Extinct, .Extinct2, .Extinct3 {
+    font-size: 18px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.Caspian  {
+    width: 200px;
+    height: 200px;
+    background-image: url(caspian_tiger2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.bali {
+    width: 200px;
+    height: 200px;
+    background-image: url(bali_tiger.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.JAVAN{
+    width: 200px;
+    height: 200px;
+    background-image: url(java-tiger.avif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.Caspian:hover, .bali:hover, .JAVAN:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        font-size: 28px;
+    }
+
+    .menu {
+        display: none; /* Hide menu on smaller screens */
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu div {
+        padding: 15px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+    }
+
+    .icon {
+        display: block; /* Show icon on mobile */
+    }
+
+    .para {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .tiger, .teger, .tigir, .tegir, .tg, .tigar {
+        width: 250px;
+        height: 250px;
+    }
+
+    .Extinct, .Extinct2, .Extinct3 {
+        padding: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .icon {
+        font-size: 40px;
+        margin-right: 15px;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    .tiger, .teger, .tigir, .tegir, .tg, .tigar {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* Hover effects for text */
+a:hover, .menu div:hover {
+    color: #f39c12;
+    text-decoration: none;
+}
+
