@@ -17,7 +17,7 @@ body {
     height: 100vh;
 }
 
-.navbar {
+.navber {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,7 +93,7 @@ body {
 .tiger  {
     width: 200px;
     height: 200px;
-    background-image: url(bengal-tiger-1.jpeg);
+    background-image: url(/assets/bengal-tiger-1.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -108,7 +108,7 @@ body {
 .teger {
     width: 200px;
     height: 200px;
-    background-image: url(indochinese-tiger.jpg);
+    background-image: url(/assets/indochinese-tiger.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -123,7 +123,7 @@ body {
 .tigir {
     width: 200px;
     height: 200px;
-    background-image: url(south\ chine.jpg);
+    background-image: url(/assets/south-chine.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -138,7 +138,7 @@ body {
 .tegir {
     width: 200px;
     height: 200px;
-    background-image: url(siberian-tiger.jpg);
+    background-image: url(/assets/siberian-tiger.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -152,7 +152,7 @@ body {
 .tg {
     width: 200px;
     height: 200px;
-    background-image: url(sumatran-tiger-1.jpg);
+    background-image: url(/assets/sumatran-tiger-1.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -167,7 +167,7 @@ body {
 .tigar {
     width: 200px;
     height: 200px;
-    background-image: url(malayan-tiger.jpg);
+    background-image: url(/assets/malayan-tiger.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -205,7 +205,7 @@ body {
 .Caspian  {
     width: 200px;
     height: 200px;
-    background-image: url(caspian_tiger2.jpg);
+    background-image: url(/assets/caspian_tiger2.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -217,7 +217,7 @@ body {
 .bali {
     width: 200px;
     height: 200px;
-    background-image: url(bali_tiger.webp);
+    background-image: url(/assets/bali_tiger.webp);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -229,7 +229,7 @@ body {
 .JAVAN{
     width: 200px;
     height: 200px;
-    background-image: url(java-tiger.avif);
+    background-image: url(/assets/java-tiger.avif);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
