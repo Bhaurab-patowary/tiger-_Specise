@@ -202,6 +202,14 @@ body {
     border-radius: 10px;
 }
 
+.castitle {                         /* the change part */
+    background-color: transparent;    /* the change part */
+    color: #fff;                         /* the change part */
+    font-size: large;                         /* the change part */
+    font-weight: bold;                           /* the change part */
+}
+
+
 .Caspian  {
     width: 200px;
     height: 200px;
