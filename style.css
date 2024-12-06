@@ -209,10 +209,16 @@ body {
     font-weight: bold;                           /* the change part */
 }
 
+.cas{
+    background-color: transparent;    
+    color: #fff;                    
+}
+
 
 .Caspian  {
     width: 200px;
     height: 200px;
+     padding-left: 10px; 
     background-image: url(/assets/caspian_tiger2.jpg);
     background-size: cover;
     background-position: center;
@@ -225,6 +231,7 @@ body {
 .bali {
     width: 200px;
     height: 200px;
+     padding-left: 10px; 
     background-image: url(/assets/bali_tiger.webp);
     background-size: cover;
     background-position: center;
@@ -237,6 +244,7 @@ body {
 .JAVAN{
     width: 200px;
     height: 200px;
+    padding-left: 10px; 
     background-image: url(/assets/java-tiger.avif);
     background-size: cover;
     background-position: center;
